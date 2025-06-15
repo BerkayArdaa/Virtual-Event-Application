@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net9.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWindowsForms>true</UseWindowsForms>
+		<UserSecretsId>146bec40-a75f-49bf-a94b-19c4dff58c97</UserSecretsId>
+		<DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.4" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.5" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.1" />
+		<PackageReference Include="System.Data.SQLite.Core" Version="1.0.119" />
+		<PackageReference Include="System.Data.SQLite.Linq" Version="1.0.119" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\VirtualEvent_SE410\VirtualEvent_SE410.csproj" />
+	</ItemGroup>
+
+</Project>

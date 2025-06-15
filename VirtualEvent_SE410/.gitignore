@@ -1,0 +1,15 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build klasörleri
+
+
+obj/
+
+# SQLite
+# *.db  (bu zaten iptal, dokunmuyoruz)
+
+# Diğer
+*.log
